@@ -1,0 +1,7 @@
+{
+    "start_file": "AccessTokenBatch.cls",
+    "end_file": "Account_cls.cls",
+    "ram": "6",
+    "timeout": "120000",
+    "csv_output_folder": "/home/vedansh/Desktop/NASII_source/nodeproj/csv"
+}
