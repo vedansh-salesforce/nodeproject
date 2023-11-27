@@ -6,7 +6,7 @@ const os = require('os');
 let config = JSON.parse(fs.readFileSync("./config.json"));
 
 const projDir = path.join(__dirname, 'temp');
-for(let file of fs.readdirSync(projDir)) fs.unlink(path.join(projDir, file));
+for(let file of fs.readdirSync(projDir)) fs.unlinkSync(path.join(projDir, file));
 const classesPath = path.join(__dirname, '..', 'force-app', 'main', 'default', 'classes');
 
 if(!config.ram) {
